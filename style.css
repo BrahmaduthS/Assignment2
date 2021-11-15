@@ -1,0 +1,309 @@
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: "cursive";
+   overflow: auto;
+}
+.home{
+
+   background-image: url(./NavPic.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    
+  }
+  #navbar{
+    background-color: rgb(99, 96, 96)!important; 
+    position: fixed;
+    top: -140px; 
+    width: 100%; 
+    transition: top 1s;
+    z-index: 10;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+  #logo{
+    width: 70px;
+  }
+
+}
+.nav-container .navbar a:hover{
+  font-size: 180%!important;
+
+}
+  .homeHead{
+    font-family: 'Stalemate', cursive;
+    font-size: 5vh;
+    padding-top: 30vh;
+    
+  }
+
+}
+  .scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    max-width:5px;
+    overflow-x:hidden;
+}
+.dropdown-item{
+  background-color: rgba(71, 62, 62, 0)!important;
+  color: rgb(236, 227, 227)!important;
+}
+.dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+a.dropdown-item:hover{
+  font-size: 120%;
+}
+.login{
+  
+  font-size:15px !important;
+  color:rgb(236, 227, 227)  !important;
+  background-color: transparent !important;
+  border: 2px solid rgb(236, 227, 227) !important;
+  font-family: "cursive" !important;
+}
+.login:hover{
+  font-size: 120%!important;
+}
+
+
+
+
+#spin {
+  color: rgb(255, 255, 255);
+}
+#spin:after {
+  content:"Kerala";
+  animation: spin 10s linear infinite;
+}
+
+/* ----------------about page------------------------------------------------------------ */
+.informations{
+background-image:url("https://img.onmanorama.com/content/dam/mm/en/travel/hourglass/images/2019/11/19/kerala-map.jpg");
+height: 80%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.aboutKerala{
+  color: rgb(8, 8, 8);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(1000,1000,1000,0.1);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+
+
+section .container .row p{
+  margin-top: 1.1rem;
+}
+
+.containerImage {
+  position: relative;
+  width: 100%;
+}
+
+.containerImage .image {
+  display: block!important;
+  width: 100%!important;
+  height: 8rem!important;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.containerImage:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.dist{
+  background-image:url("https://img.onmanorama.com/content/dam/mm/en/travel/hourglass/images/2019/11/19/kerala-map.jpg");
+height: 80%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+/* -----------------footer----------------------- */
+.footer{
+  position: sticky;
+}
+.footer .container{
+  background-color: rgba(0, 0, 0, 0);
+  color:black;
+}
+.footer a{
+  text-decoration: none;
+  color:black;
+}
+.footer a:hover{
+  color:white
+
+}
+.copyright{
+  background-color: rgba(0,0,0,0.4);
+  color:black;
+  width: 100%!important;
+  height: 5rem;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2rem;
+}
+.SignUp_Form{
+  width: 20%;
+
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+  background: rgb(150, 146, 146);
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+label,
+input,
+#error-msg{
+    font-family: 'Poppins',sans-serif;
+}
+label{
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+input[type="email"]{
+    display: inline-block;
+    border: 2px solid #d1d3d4;
+    width: 88%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+#icon{
+    float: right;
+    height: 50px;
+    position: relative;
+    font-size: 25px;
+    padding-top: 10px;
+}
+#error-msg{
+    display: none;
+    color: #ff2851;
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* ------------------------Districts------------------- */
+.background{
+  background: rgb(222, 238, 153);
+  background: linear-gradient(90deg, rgb(222, 238, 153) 0%, rgb(127, 153, 167) 30%);
+  
+}
+div.card{
+  background-color: rgba(0,100,100,0.6)!important;
+}
+
+
+    /* ----------dist----- */
+    .reg:hover{
+      font-size: 110%!important;
+      }
+/* -------carousel------------ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.carousel{
+    display: flex;
+    width: 90vw;
+    
+}
+.panel{
+    position: relative;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin: .7em;
+    border-radius: 50px;
+    flex: 0.5;
+    cursor: pointer;   
+    transition: flex .7s ease-in;
+}
+
+.panel.active{
+    flex: 5;
+}
+.panel h3{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity .8s ease-in;
+}
+.panel.active h3{
+    opacity: 1;
+}
+
+
+  
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+      display: none;
+    }
+  }
+  }
